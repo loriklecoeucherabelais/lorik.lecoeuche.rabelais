@@ -1,20 +1,16 @@
 Module Module1
 
     Sub Main()
-        Dim joursLocation1 As Integer = 10
-        Dim distance1 As Integer = 1000
-        Dim joursLocation2 As Integer = 2
-        Dim distance2 As Integer = 30
-        ' Déterminer le meilleur choix pour le premier scénario
-        Dim choixCarburant1 As String = ChoixCarburant(joursLocation1, distance1)
-        Console.WriteLine("Pour " & joursLocation1 & " jours de location et " & distance1 & " km à parcourir, le meilleur choix est : " & choixCarburant1)
-        ' Déterminer le meilleur choix pour le deuxième scénario
-        Dim choixCarburant2 As String = ChoixCarburant(joursLocation2, distance2)
-        Console.WriteLine("Pour " & joursLocation2 & " jours de location et " & distance2 & " km à parcourir, le meilleur choix est : " & choixCarburant2)
-        ' Attendre que l'utilisateur appuie sur une touche avant de fermer la console
-        Console.WriteLine("Appuyez sur une touche pour quitter...")
-        Console.ReadKey()
+        Dim joursLocation1, t_diesel, t_essence, t_km_essence, t_km_diesel, nb_j, dis, t_total_diesel, t_total_essence, dis_total_essence, dis_total_diesel As Double
 
+        Console.WriteLine("nombre de jours de locatrion")
+        nb_j = Console.ReadLine()
+        Console.WriteLine("nombre de km à parcourir")
+        dis = Console.ReadLine()
+        t_total_essence = 30 * nb_j
+        dis_total_essence = 0.85 * dis
+        t_total_diesel = 35 * dis
+        dis_total_diesel = 0.65 * dis
+        Console.WriteLine("le montant du au km (essence) est : " + dis_total_essence.ToString())
     End Sub
-
 End Module
