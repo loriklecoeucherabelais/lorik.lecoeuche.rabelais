@@ -1,32 +1,31 @@
-<style>
-    #div1 {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      line-height: 1.6;
-    }
-    h2 {
-      color: #2c3e50;
-    }
-    img {
-      max-width: 150px; /* Ajustez la taille selon vos besoins */
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-    }
-    td {
-      padding: 10px;
-      border: 1px solid #ddd;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    li {
-      padding: 5px 0;
-    }
-  </style>
+#div1 {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(125, 144, 252);
+}
+
+#div2 {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(0, 255, 76);
+}
+
+#div3 {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+}
+
+#div4 {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(0, 195, 255);
+}
