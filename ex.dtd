@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT bon de commande (Emmeteur, Receveur, Date, MontantTotal, Lignedecommande)>
+
+<!ELEMENT Emmeteur  (Nom, Adresse, Telephone)>
+
+<!ELEMENT  Receveur(Nom, Adresse, Telephone)>
+
+<!ELEMENT Lignedecommande (Referenceproduit, intitule, quantite, PrixUnitaire)>
+
+<!ELEMENT  Date (#PCDATA)>
+
+<!ELEMENT  MontantTotal (#PCDATA)>
+
+<!ELEMENT Lignedecommande (Lignedecommande+)>
+
+<!ELEMENT Nom (#PCDATA)>
+
+<!ELEMENT Adresse (#PCDATA)>
+
+<!ELEMENT Telephone (#PCDATA)>
+
+<!ELEMENT Referenceproduit(#PCDATA)>
+
+<!ELEMENT Intitule (#PCDATA)>
+
+<!ELEMENT Quantité (#PCDATA)>
+
+<!ELEMENT PrixUnitaire (#PCDATA)>
