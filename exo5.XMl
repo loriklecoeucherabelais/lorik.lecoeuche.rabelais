@@ -1,0 +1,20 @@
+ <?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE CD SYSTEM "cd.dtd">
+
+<Titre>Stan Getz Finest Hour</Titre>
+
+<Genre>Jazz/blues</Genre>
+
+<Interprete>STAN GETZ</Interprete>
+
+<Piste>
+
+   <Titre>S-h-i-n-e</Titre>
+
+   <Compositeur>Brown</Compositeur>
+
+   <Duree>8 :56</Duree>
+
+</Piste>
+ 
